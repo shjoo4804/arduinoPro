@@ -1,0 +1,11 @@
+LiquidCrystal-I2C-library 라이브러리 설치
+
+1. I2C 모듈을 쉽게 제어하기 위한 라이브러리를 추가
+
+https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library
+에 접속하여 라이브러리 zip 파일을 다운로드
+
+2.Arduino-LiquidCrystal-I2C-library-master.zip 라이브러리 파일을 아두이노에 추가
+아두이노 > 스케치 > 라이브러리 포함하기 > .ZIP 라이브러리 추가…
+
+(zip파일 위치 경로는 C:\IoTstudy187\arduinoPro)

@@ -1,0 +1,240 @@
+test15Grove_IMU 9DOF
+	Accelerometer
+	Gyroscope
+	Compass
+
+스케치>>라이브러리포함>>라이브러리관리
+>>grove imu 검색 >> Grove_IMU 9DOF install
+
+케이블연결 SCL,SDA,VCC,GND
+
+파일 >> 예제 >> Grove_IMU 9DOF >> Example 
+>> Grove_IMU 9DOF_Demo >> 컴파일 >> 업로드
+
+시리얼 모니터 열면
+================================
+Initializing I2C devices...
+Testing device connections...
+MPU6050 connection failed
+     
+Before using 9DOF,we need to calibrate the compass frist,It will takes about 2 minutes.
+  During  calibratting ,you should rotate and turn the 9DOF all the time within 2 minutes.
+  If you are ready ,please sent a command data 'ready' to start sample and calibrate.
+[번역]
+9DOF를 사용하기 전에 나침반을 교정해야합니다. 
+약 2 분이 소요됩니다.
+   
+캘리브레이션 중에는 2 분 안에 항상 9DOF를 
+돌리고 회전시켜야합니다.
+준비가되면 '준비'명령 데이터를 보내 샘플을 
+시작하고 보정하십시오.
+================================ 
+라고 출력되며
+인풋박스에 빠르게 ready  라고 
+입력후 전송버튼 클릭
+센서를 잡고 기아래 처럼 센서로그 찍힐때 까지 대기..........
+
+
+ready
+Sample starting......
+waiting ......
+     
+compass calibration parameter 
+7.00     -13.00     -10.00
+    
+calibration parameter: 
+7.00         -13.00         -10.00
+     
+Acceleration(g) of X,Y,Z:
+-0.21,0.19,1.05
+Gyro(degress/s) of X,Y,Z:
+14.04,-80.98,34.87
+Compass Value of X,Y,Z:
+-1.43,-11.61,5.31
+The clockwise angle between the magnetic north and X-Axis:
+262.96 
+The clockwise angle between the magnetic north and the projection of the positive X-Axis in the horizontal plane:
+268.66
+   
+   
+   
+calibration parameter: 
+7.00         -13.00         -10.00
+     
+Acceleration(g) of X,Y,Z:
+-0.04,0.13,0.99
+Gyro(degress/s) of X,Y,Z:
+-4.19,7.02,26.63
+Compass Value of X,Y,Z:
+-2.61,-10.73,7.07
+The clockwise angle between the magnetic north and X-Axis:
+256.35 
+The clockwise angle between the magnetic north and the projection of the positive X-Axis in the horizontal plane:
+258.64
+   
+   
+   
+calibration parameter: 
+7.00         -13.00         -10.00
+     
+Acceleration(g) of X,Y,Z:
+-0.20,0.12,0.92
+Gyro(degress/s) of X,Y,Z:
+-13.34,25.64,-0.81
+Compass Value of X,Y,Z:
+-2.61,-9.85,8.83
+The clockwise angle between the magnetic north and X-Axis:
+255.19 
+The clockwise angle between the magnetic north and the projection of the positive X-Axis in the horizontal plane:
+265.90
+   
+   
+   
+calibration parameter: 
+7.00         -13.00         -10.00
+     
+Acceleration(g) of X,Y,Z:
+0.04,-0.64,0.79
+Gyro(degress/s) of X,Y,Z:
+-0.57,0.55,1.18
+Compass Value of X,Y,Z:
+2.38,-11.90,1.50
+The clockwise angle between the magnetic north and X-Axis:
+281.28 
+The clockwise angle between the magnetic north and the projection of the positive X-Axis in the horizontal plane:
+285.94
+   
+   
+   
+calibration parameter: 
+7.00         -13.00         -10.00
+     
+Acceleration(g) of X,Y,Z:
+0.03,-0.64,0.78
+Gyro(degress/s) of X,Y,Z:
+-1.02,0.53,1.39
+Compass Value of X,Y,Z:
+2.67,-11.32,1.50
+The clockwise angle between the magnetic north and X-Axis:
+283.27 
+The clockwise angle between the magnetic north and the projection of the positive X-Axis in the horizontal plane:
+288.87
+   
+   
+   
+calibration parameter: 
+7.00         -13.00         -10.00
+     
+Acceleration(g) of X,Y,Z:
+0.03,-0.64,0.78
+Gyro(degress/s) of X,Y,Z:
+-0.67,0.67,1.40
+Compass Value of X,Y,Z:
+2.38,-11.90,1.50
+The clockwise angle between the magnetic north and X-Axis:
+281.28 
+The clockwise angle between the magnetic north and the projection of the positive X-Axis in the horizontal plane:
+286.03
+   
+   
+   
+calibration parameter: 
+7.00         -13.00         -10.00
+     
+Acceleration(g) of X,Y,Z:
+0.04,-0.64,0.77
+Gyro(degress/s) of X,Y,Z:
+-0.69,0.29,1.08
+Compass Value of X,Y,Z:
+2.67,-12.49,1.21
+The clockwise angle between the magnetic north and X-Axis:
+282.06 
+The clockwise angle between the magnetic north and the projection of the positive X-Axis in the horizontal plane:
+286.76
+   
+   
+   
+calibration parameter: 
+7.00         -13.00         -10.00
+     
+Acceleration(g) of X,Y,Z:
+0.03,-0.64,0.78
+Gyro(degress/s) of X,Y,Z:
+-0.49,0.67,1.40
+Compass Value of X,Y,Z:
+2.67,-11.90,1.50
+The clockwise angle between the magnetic north and X-Axis:
+282.63 
+The clockwise angle between the magnetic north and the projection of the positive X-Axis in the horizontal plane:
+287.83
+   
+   
+   
+calibration parameter: 
+7.00         -13.00         -10.00
+     
+Acceleration(g) of X,Y,Z:
+0.03,-0.65,0.78
+Gyro(degress/s) of X,Y,Z:
+-0.60,0.55,1.09
+Compass Value of X,Y,Z:
+2.96,-12.49,0.63
+The clockwise angle between the magnetic north and X-Axis:
+283.34 
+The clockwise angle between the magnetic north and the projection of the positive X-Axis in the horizontal plane:
+287.96
+   
+   
+   
+calibration parameter: 
+7.00         -13.00         -10.00
+     
+Acceleration(g) of X,Y,Z:
+0.03,-0.64,0.77
+Gyro(degress/s) of X,Y,Z:
+-0.89,0.56,1.25
+Compass Value of X,Y,Z:
+2.38,-11.32,0.92
+The clockwise angle between the magnetic north and X-Axis:
+281.85 
+The clockwise angle between the magnetic north and the projection of the positive X-Axis in the horizontal plane:
+286.29
+   
+   
+   
+calibration parameter: 
+7.00         -13.00         -10.00
+     
+Acceleration(g) of X,Y,Z:
+0.03,-0.65,0.77
+Gyro(degress/s) of X,Y,Z:
+-0.50,0.75,1.44
+Compass Value of X,Y,Z:
+2.67,-11.90,1.21
+The clockwise angle between the magnetic north and X-Axis:
+282.63 
+The clockwise angle between the magnetic north and the projection of the positive X-Axis in the horizontal plane:
+287.70
+   
+   
+   
+calibration parameter: 
+7.00         -13.00         -10.00
+     
+Acceleration(g) of X,Y,Z:
+0.03,-0.65,0.78
+Gyro(degress/s) of X,Y,Z:
+-0.72,0.62,1.25
+Compass Value of X,Y,Z:
+2.38,-11.61,1.21
+The clockwise angle between the magnetic north and X-Axis:
+281.56 
+The clockwise angle between the magnetic north and the projection of the positive X-Axis in the horizontal plane:
+286.22
+   
+   
+   
+
+
+
+
